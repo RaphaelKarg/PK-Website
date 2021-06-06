@@ -334,7 +334,7 @@ footer ul.footer-second-ul li a img{
 }
 
 @font-face {
-    src: url("fonts\Nunito_Sans Font\NunitoSans-ExtraLight.ttf");
+    src: url("fonts/Nunito_Sans Font/NunitoSans-ExtraLight.ttf");
     font-family: 'Nunito Sans', sans-serif;
 }
 footer p{
@@ -460,5 +460,66 @@ main .about-wrapper .about-wrapper-subcategory .wrapper-paragraph a:hover{
     padding-top: 20px;
     border-top: none;
     line-height: 30px;
+  }
+}
+
+/************ CONTACT.HTML ************/
+main .main-background{
+  background-color: #e6e6e6;
+  height: auto;
+  padding: 15px;
+  margin-top: 2px;
+}
+
+main .main-background .main-text-container{
+  margin: 170px auto;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0px 0px 35px black; /* DEKSIA KATW THOLOURA XRWMA */
+  border-radius: 5px;
+}
+
+main .main-background .main-text-container h1{
+  padding: 20px 0px 25px 0px;
+  font-size: 30px;
+  font-family: 'Literata', serif;
+}
+
+main .main-background .main-text-container p.text-p{
+  font-family: 'Literata', serif;
+  line-height: 20px;
+  padding: 0px 0px 30px 0px;
+  opacity: 0.7;
+}
+
+main .main-background .main-text-container ul.main-images-container{
+  text-align: center;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+}
+@font-face {
+    src: url("fonts/Staatliches Font/Staatliches-Regular.ttf");
+    font-family: 'Staatliches', cursive;
+}
+main .main-background .main-text-container ul.main-images-container p.email-title-p{
+  font-family: 'Staatliches', cursive;
+  padding: 10px;
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+main .main-background .main-text-container ul.main-images-container a{
+  color: black;
+}
+main .main-background .main-text-container ul.main-images-container a:hover{
+  color: red;
+}
+
+@media only screen and (min-width: 1000px){
+  main .main-background .main-text-container{
+    width: 500px;
   }
 }
