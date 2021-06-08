@@ -523,3 +523,53 @@ main .main-background .main-text-container ul.main-images-container a:hover{
     width: 500px;
   }
 }
+
+/************ MY-MUSICS.HTML ************/
+
+main .my_musics-img-container{
+  margin-top: 2px;
+  width: 100%;
+  height: 90vh;
+  background-image: url("images/favorite_musics_phone.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+}
+
+main .my_musics-img-container h1{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Literata', serif;
+  font-size: 30px;
+  text-shadow: 8px 8px 8px black;
+}
+
+main .music-categories{
+  display: block;
+  width: fit-content;
+  margin: 0px auto 10px auto;
+  font-family: 'Literata', serif;
+
+}
+
+main .music-categories li{
+  text-align: center;
+  display: block;
+}
+main .music-categories li:first-child{
+  padding: 35px;
+  font-size: 25px;
+}
+
+main .music-categories li a{
+  display: block;
+  padding: 15px;
+  color: black;
+}
+
+main .music-categories li a:hover{
+  border: 1px solid black;
+}
