@@ -152,6 +152,7 @@ header nav ul li a:hover{
 
 header .header-favorite-songs{
   display: none;
+  transition: .5s;
 }
 
 @media only screen and (min-width: 1000px){
@@ -311,6 +312,23 @@ main .wrapper h3{
       margin-top: 0;
   }
 }
+/************** SOCIAL MEDIA ICONS **************/
+a.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: fit-content;
+  height: auto;
+}
+.fa-linkedin {
+  background: #303030;
+  color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
 
 footer{
   width: calc(100% - 80px);
@@ -328,11 +346,6 @@ footer ul.footer-second-ul{
   display: block;
   margin: 0 auto;
 }
-
-footer ul.footer-second-ul li a img{
-  width: 50px;
-}
-
 @font-face {
     src: url("fonts/Nunito_Sans Font/NunitoSans-ExtraLight.ttf");
     font-family: 'Nunito Sans', sans-serif;
@@ -376,7 +389,7 @@ footer p{
 
   footer ul.footer-second-ul{
     float: right;
-    margin-top: 48px;
+    margin-top: 55px;
     margin-right: 150px;
   }
   footer p{
@@ -555,15 +568,17 @@ main .music-categories{
 
 }
 
+main p.p-categories{
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: 'Literata', serif;
+  font-size: 30px;
+}
+
 main .music-categories li{
   text-align: center;
   display: block;
 }
-main .music-categories li:first-child{
-  padding: 35px;
-  font-size: 25px;
-}
-
 main .music-categories li a{
   display: block;
   padding: 15px;
@@ -572,4 +587,33 @@ main .music-categories li a{
 
 main .music-categories li a:hover{
   border: 1px solid black;
+}
+@media only screen and (min-width: 1000px){
+  main .my_musics-img-container{
+    background-image: url("images/favorite_musics.jpg");
+    background-size: cover
+  }
+  main .music-categories-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    height: fit-content;
+  }
+  main .music-categories li{
+    display: inline-block;
+  }
+  main .music-categories li a{
+    display: block;
+    padding: 15px;
+    color: black;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: .5s;
+  }
+  main .music-categories li a:hover{
+    border: none;
+    background-color: #303030;
+    color: white;
+    opacity: 0.4;
+  }
 }
