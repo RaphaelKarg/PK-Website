@@ -591,8 +591,8 @@ main .music-categories li a:hover{
   border: 1px solid black;
 }
 @media only screen and (min-width: 1000px){
-  main .my_musics-img-container{
-    background-image: url("images/favorite_musics_desktop.jpg");
+   main .my_musics-img-container{
+    background-image: url("images/favorite_musics.jpg");
     background-size: cover
   }
   main .music-categories-container{
