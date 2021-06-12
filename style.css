@@ -381,7 +381,12 @@ footer p.footer-second-p{
   font-size: 11px;
   opacity: .5;
 }
-
+footer p.footer-second-p a{
+  color: white;
+}
+footer p.footer-second-p a:hover{
+  border-bottom: 2px solid white;
+}
 @media only screen and (min-width: 1000px){
   footer ul.footer-first-ul{
     display: block;
