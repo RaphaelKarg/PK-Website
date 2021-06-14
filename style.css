@@ -382,10 +382,11 @@ footer p.footer-second-p{
   opacity: .5;
 }
 footer p.footer-second-p a{
-  color: white;
+  color: orange;
 }
 footer p.footer-second-p a:hover{
   border-bottom: 2px solid white;
+  color: white;
 }
 @media only screen and (min-width: 1000px){
   footer ul.footer-first-ul{
