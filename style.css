@@ -434,6 +434,7 @@ main .about-wrapper .wrapper-img{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   display: table;
 }
 
@@ -574,6 +575,7 @@ main .my_musics-img-container{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   display: table;
 }
 
@@ -618,7 +620,7 @@ main .music-categories li a:hover{
 @media only screen and (min-width: 1000px){
   main .my_musics-img-container{
     background-image: url("images/favorite_musics.jpg");
-    background-size: cover
+    background-size: cover;
   }
   main .music-categories-container{
     width: 1000px;
